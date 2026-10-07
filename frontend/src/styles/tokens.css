@@ -1,0 +1,67 @@
+/* Única fonte de verdade da identidade. Nenhum HEX fora deste arquivo. */
+:root {
+  --color-background: #f7f3ea; /* Ivory */
+  --color-surface: #fffcf7; /* Warm White */
+  --color-primary: #163f43; /* Deep Petrol */
+  --color-primary-hover: #35676a; /* Petrol */
+  --color-secondary: #35676a;
+  --color-accent: #72c7c9; /* Muted Aqua — só sobre Deep Petrol ou como preenchimento */
+  --color-accent-bright: #86e4e5; /* Soft Cyan — só sobre Deep Petrol */
+  --color-lavender: #a992e2;
+  --color-violet: #62468a;
+
+  --color-text-primary: #183033;
+  --color-text-secondary: #536568;
+  --color-text-muted: #5f6c6f; /* ajustado de #879294 para passar 4,5:1 sobre Ivory */
+  --color-text-on-dark: #fffcf7;
+  --color-text-on-dark-soft: rgb(255 252 247 / 0.72);
+
+  --color-border: #dddcd5;
+  --color-border-strong: #c7cbc6;
+  --color-focus: #62468a;
+  --color-error: #8a2f3c;
+
+  --font-serif: "Fraunces Variable", Georgia, "Times New Roman", serif;
+  --font-sans:
+    "Instrument Sans Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-display-xl: clamp(2.75rem, 1.6rem + 5.2vw, 6rem);
+  --text-display: clamp(2.25rem, 1.5rem + 3.4vw, 4.25rem);
+  --text-h1: clamp(2rem, 1.5rem + 2vw, 3.25rem);
+  --text-h2: clamp(1.625rem, 1.3rem + 1.2vw, 2.25rem);
+  --text-h3: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --text-h4: 1.125rem;
+  --text-body-lg: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+  --text-body: 1rem;
+  --text-body-sm: 0.875rem;
+  --text-label: 0.8125rem;
+  --text-caption: 0.75rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --shadow-ambient:
+    0 1px 2px rgb(22 63 67 / 0.05), 0 8px 24px rgb(22 63 67 / 0.05);
+
+  --container: 1320px;
+  --gutter: clamp(20px, 4vw, 48px);
+  --header-h: 72px;
+
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 180ms;
+  --dur-base: 240ms;
+  --dur-editorial: 640ms;
+}
